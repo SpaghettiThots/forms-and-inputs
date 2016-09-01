@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Assignment 4: Shipping and Billing Address Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="ship.css">
+	<!-- Fonts from Google -->
+	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|IM+Fell+English|Meie+Script|UnifrakturMaguntia" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<a href="http://profiles.moderndeveloper.com/user/?u=alexandrix-ikechukwu">
+		<div id="header">
+			<div id="details">
+				<p id="name">Alexandrix <span>Ikechukwu</span></p>
+				<p id="path"><span id="path-span">Career Path 4:</span> JavaScript Backend Developer</p>
+				<p id="quote"><em>"Growth and comfort do not coexist"</em> -Ginny <span class="quote">Rometty</span></p>
+			</div>
+		</div>
+	</a>
+
+	<nav id="main-nav">
+		<ul>
+			<li class="top"><a href='#'>Project-1</a></li>
+			<li class="bottom"><a href='#'>Project-2</a></li>
+			<li class="top"><a href='#'>Project-3</a></li>
+			<li class="bottom"><a href='#'>Project-4</a></li>
+			<li class="top"><a href='#'>Project-5</a></li>
+			<li class="bottom"><a href='#'>Project-6</a></li>
+			<li class="top"><a href='#'>Project-7</a></li>
+		</ul>
+	</nav>
+
+	<hr>
+
+	<div id="profile-card">
+		<div id="name-pics">
+			<div id="name-div">
+				<p>
+					Alexandrix<br>
+					<strong>Ikechukwu</strong>
+				</p>
+			</div>
+
+			<div id="profile-pics">
+				<div id="main-pic">	
+					<img src="images/profile/main.jpg">
+				</div>
+				<div id="side-pics">
+					<img src="images/profile/side-1.jpg" id="side-pic1">
+					<img src="images/profile/side-2.jpg" id="side-pic2">
+				</div>
+			</div>
+		</div>
+
+		<div id="content">
+			<hr>
+
+			<h3>About the Developer</h3>
+			<p>
+				A budding developer from Africa, Alexandrix obsesses with learning and understanding technologies deeply. He believes it opens the door to what many will call magic.
+				Math is scary but it gives Alex'x a thrill. They have a relationship some might call abusive.
+				He will give almost anything to be around a computer and believes education is key to the intellectual and economic advancement of <em>any</em> of any society.
+				And <em>yes</em>, I am this leggy!
+			</p>
+			<p><a href="http://profiles.moderndeveloper.com/user/?u=alexandrix-ikechukwu">Back to Full Profile</a></p>
+		</div>
+	</div>
+
+	<div id="ship-bill">
+		
+		<p>
+			Billing &amp; Shipping Information
+		</p>
+
+		<form action="" method="POST">
+			<fieldset id="bill">
+				<legend>Billing Address</legend>
+
+				<label for="fname-bill" class="regular-label" autofocus>First Name: </label><br>
+				<input type="text" name="" id="fname-bill" class="regular-input"><br>
+
+				<label for="lname-bill" class="regular-label">Last Name: </label><br>
+				<input type="text" name="" id="lname-bill" class="regular-input"><br>
+
+				<label for="add-bill" class="regular-label">Address: </label><br>
+				<input type="text" name="" id="add-bill" class="address-bottom address"><br>
+				<input type="text" name="" id="add-bill-line-b" class="address"><br>
+
+				<label for="city-bill" class="regular-label">City: </label><br>
+				<input type="text" name="" id="city-bill" class="regular-input" class="regular-input"><br>
+
+				<label for="country-bill" class="regular-label">Country: </label><br>
+				<input type="text" name="" id="country-bill" class="regular-input"><br><br>
+			</fieldset>
+
+				<label for="matchbox">If shipping address is same as billing address, check this box: </label>
+				<input type="checkbox" name="" id="matchbox">
+				
+
+			<fieldset id="ship">
+				<legend>Shipping Address</legend>
+
+				<label for="fname-ship" class="regular-label">First Name: </label><br>
+				<input type="text" name="" id="fname-ship" class="regular-input"><br>
+
+				<label for="lname-ship" class="regular-label">Last Name: </label><br>
+				<input type="text" name="" id="lname-ship" class="regular-input"><br>
+
+				<label for="add-ship" class="regular-label">Address: </label><br>
+				<input type="text" name="" id="add-ship" class="address"><br>
+				<input type="text" name="" id="add-ship-line-b" class="address-bottom address"><br>
+
+				<label for="city-ship" class="regular-label">City: </label><br>
+				<input type="text" name="" id="city-ship" class="regular-input"><br>
+
+				<label for="country-ship" class="regular-label">Country: </label><br>
+				<input type="text" name="" id="country-ship" class="regular-input"><br>
+			</fieldset>
+
+			<input type="submit" name="" value="Submit">
+		</form>
+	</div>
+</body>
+</html>

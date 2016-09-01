@@ -1,0 +1,275 @@
+body{
+	background: #F4F7F8;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+	
+#header{
+	width: 1400px;
+	height: 400px;
+	background: url('images/header/header.png');
+	padding-top: 0;
+	position: relative;
+}
+
+#details{
+	position: absolute;
+	top:30px;
+	left: 400px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+/* Header fonts */
+#name{
+	font-family: 'Roboto Slab', serif;
+	font-size: 3em;
+	color: rgb(255, 255, 255);
+	text-shadow: .1em .1em 0.15em rgb(150, 150, 150);
+}
+
+#name span{
+	font-weight: bold;
+}
+
+#path-span{
+	font-size: 1.5em;
+}
+
+#path{
+	font-family: Ubuntu, sans-serif;
+	font-size: 2em;
+	color: rgb(100, 100, 100);
+}
+
+#quote{
+	font-family: 'Meie Script', cursive;
+	font-size: 2em;
+}
+
+.quote{
+	color: rgb(120, 120, 120);
+}
+
+
+hr{
+	color: rgba(192, 192, 192, 0.4);
+}
+
+/* Navigation Menu */
+#main-nav{
+	width: 600px;
+	margin: 0 auto;
+}
+
+li{
+	display: inline-block;
+	font-family: 'Roboto Slab', 'Ubuntu', sans-serif;
+	font-size: 14px;
+
+	padding: 5px;
+	padding-left: 7px;
+	padding-right: 8px;
+	
+	border: 1px solid rgb(190, 190, 190);
+	border-radius: 2px;
+
+	color: rgb(58, 58, 58);
+}
+
+.top:hover{
+	color: rgb(192, 0, 0);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-top: 2px solid rgb(200, 255, 50);
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.bottom:hover{
+	color: rgb(192, 0, 0);
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid rgb(200, 255, 50);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.top:active{
+	color: rgb(192, 0, 0);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-top: 2px solid rgb(200, 255, 50);
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.bottom:active{
+	color: rgb(192, 0, 0);
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid rgb(200, 255, 50);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+li a{
+	color: rgb(192, 0, 0);
+	text-decoration: none;
+}
+
+li:hover{
+	color: rgb(0, 200, 200);
+}
+
+li:active{
+	color: rgb(200, 200, 0);
+}
+
+/*Profile Card*/
+#profile-card{
+	box-sizing: border-box;
+
+	width: 300px;
+	font-family: 'Ubuntu', sans-serif;
+
+	border: 5px solid rgba(0, 206, 209, .4);
+	border-radius: 3px;
+
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+
+	position: absolute;
+	right: 10px;
+}
+
+#name-div{
+	font-size: 1.5em;
+}
+
+#profile-pics{
+	position: relative;
+}
+
+#side-pics{
+	position: absolute;
+	left: 116px;
+	bottom: 4px;
+}
+
+#content{
+	font-size: 16px;
+}
+
+/*Forms*/
+#signup{
+	box-sizing: border-box;
+	width: 320px;
+	margin-top: 30px;
+	padding-bottom: 20px;
+	position: absolute;
+	left: 450px;
+	border: 2px solid rgb(192, 192, 192);
+	border-radius: 6px;
+	font-family:'Ubuntu', sans-serif;
+	font-size: 14px;
+	line-height: 1em;
+}
+
+legend{
+	font-weight: 600;
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
+	margin-left: 120px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	opacity: .5;
+}
+
+fieldset{
+	margin: 0;
+	padding: 0;
+	border: none;
+	position: relative;
+	left: -14px;
+}
+
+input[value]{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13px;
+	opacity: 0.6;
+	margin-left: 5px;
+	opacity: 0.5;
+}
+ 
+.form-input{
+	padding: 10px;
+	text-align: right;
+}
+
+label{
+	width: 60px;
+	font-weight: 600;
+}
+
+input{
+	width: 170px;
+	height: 20px;
+	border: 1px solid rgba(192, 192, 192, 0.6);
+	border-radius: 3px;
+	padding-left: 4px;
+	position: relative;
+	bottom: -1px;
+}
+
+input:focus{
+	box-shadow: 0 0 2px .5px rgb(0, 206, 209);
+}
+
+input[value]:hover{
+	opacity: 1;
+}
+
+input[type="submit"]{
+	margin-left: 135px;
+	margin-top: 10px;
+	width: 80px;
+	height: 30px;
+	border: 1px solid rgb(255, 99, 71);
+	border-radius: 3px;
+	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
+	background-color: rgb(70, 130, 180);
+	text-shadow: 1px 1px 1px rgb(255, 255, 255);
+	box-shadow: inset 3px 3px 3px rgb(70, 130, 180);
+}
+
+/*Search*/
+#menu{
+	border: 1px solid rgb(192, 192, 192);
+	border-radius: 2px;
+	height: 20px;
+}
+
+option{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+}
+.footer{
+	font-size: 1.2em;
+	clear: left;
+	width: 40%;
+	margin: 0 auto;
+	border-top: 1px solid grey;
+	border-radius: 
+}
+

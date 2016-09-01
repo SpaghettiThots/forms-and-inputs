@@ -1,0 +1,283 @@
+body{
+	background: #f4f7F8;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+	
+#header{
+	width: 1400px;
+	height: 400px;
+	background: url('images/header/header.png');
+	padding-top: 0;
+	position: relative;
+}
+
+#details{
+	position: absolute;
+	top:30px;
+	left: 400px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+/* Header fonts */
+#name{
+	font-family: 'Roboto Slab', serif;
+	font-size: 3em;
+	color: rgb(255, 255, 255);
+	text-shadow: .1em .1em 0.15em rgb(150, 150, 150);
+}
+
+#name span{
+	font-weight: bold;
+}
+
+#path-span{
+	font-size: 1.5em;
+}
+
+#path{
+	font-family: Ubuntu, sans-serif;
+	font-size: 2em;
+	color: rgb(100, 100, 100);
+}
+
+#quote{
+	font-family: 'Meie Script', cursive;
+	font-size: 2em;
+}
+
+.quote{
+	color: rgb(120, 120, 120);
+}
+
+/* Navigation Menu */
+#main-nav{
+	width: 600px;
+	margin: 0 auto;
+}
+
+li{
+	display: inline-block;
+	font-family: 'Roboto Slab', 'Ubuntu', sans-serif;
+	font-size: 14px;
+
+	padding: 5px;
+	padding-left: 7px;
+	padding-right: 8px;
+	
+	border: 1px solid rgb(190, 190, 190);
+	border-radius: 2px;
+
+	color: rgb(58, 58, 58);
+}
+
+.top:hover{
+	color: rgb(192, 0, 0);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-top: 2px solid rgb(200, 255, 50);
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.bottom:hover{
+	color: rgb(192, 0, 0);
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid rgb(200, 255, 50);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.top:active{
+	color: rgb(192, 0, 0);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-top: 2px solid rgb(200, 255, 50);
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.bottom:active{
+	color: rgb(192, 0, 0);
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid rgb(200, 255, 50);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+li a{
+	color: rgb(192, 0, 0);
+	text-decoration: none;
+}
+
+li:hover{
+	color: rgb(0, 200, 200);
+}
+
+li:active{
+	color: rgb(200, 200, 0);
+}
+
+/*Profile Card*/
+#profile-card{
+	box-sizing: border-box;
+
+	width: 300px;
+	font-family: 'Ubuntu', sans-serif;
+
+	border: 5px solid rgba(0, 206, 209, .4);
+	border-radius: 3px;
+
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+
+	position: absolute;
+	right: 10px;
+}
+
+#name-div{
+	font-size: 1.5em;
+}
+
+hr{
+	color: rgba(192, 192, 192, .4);
+}
+
+#profile-pics{
+	position: relative;
+}
+
+#side-pics{
+	position: absolute;
+	left: 117px;
+	top: 3px;
+}
+
+#content{
+	font-size: 16px;
+}
+
+/*Login*/
+#login{
+	width: 350px;
+	border: 1px solid rgb(192, 192, 192);
+	border-radius: 4px;
+	margin-top: 30px;
+	position: absolute;
+	left: 350px;
+	background: rgb(20, 200, 220);
+}
+
+fieldset{
+	border: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	margin-left: 90px;
+}
+
+legend{
+	color: rgb(245, 245, 245);
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 28px;
+	word-spacing: 5px;
+	font-size: 15px;
+}
+
+#legend-login{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	border: none;
+}
+
+legend span{
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	font-weight: 600;
+	padding-left: 1px;
+	padding-right: 1px;
+	box-shadow: 0 0 1px 1px rgb(255, 255, 0);
+}
+
+
+
+input{
+	border: 1px solid rgb(192, 192, 192);
+	width: 170px;
+	height: 30px;
+}
+
+input[type="text"]{
+	border: 2px solid rgb(0, 100, 255);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom: 0;
+}
+
+input[type="password"]{
+	margin-top: 0;
+	border: 2px solid rgb(0, 100, 255);
+	border-top: 1px solid rgb(100, 100, 100);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	margin-bottom: 10px;
+}
+
+input[placeholder]{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+
+input[value]{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+input[type="submit"]{
+	border-radius: 3px;
+	border: none;
+	margin-left: 11px;
+	margin-bottom: 20px;
+	font-family: 'Ubuntu', serif;
+	font-weight: 400;
+	font-size: 13px;
+	text-shadow: 0 0 1px DodgerBlue;
+	padding-left: 5px;
+}
+
+input[type="text"]:hover, input[type="text"]:focus{
+	border: 2px solid rgb(0, 255, 100);
+}
+
+input[type="password"]:hover, input[type="password"]:focus{
+	border: 2px solid rgb(0, 255, 100);
+}
+
+input[type="submit"]:hover{
+	background-color: DodgerBlue;
+	color: rgb(255, 255, 255);
+}
+
+.footer{
+	font-size: 1.2em;
+	clear: left;
+	width: 40%;
+	margin: 0 auto;
+	border-top: 1px solid grey;
+	border-radius: 
+}

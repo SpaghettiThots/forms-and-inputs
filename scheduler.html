@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Assignment 4: Scheduling Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="scheduler.css">
+	<!-- Fonts from Google -->
+	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|IM+Fell+English|Meie+Script|UnifrakturMaguntia" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<a href="http://profiles.moderndeveloper.com/user/?u=alexandrix-ikechukwu">
+		<div id="header">
+			<div id="details">
+				<p id="name">Alexandrix <span>Ikechukwu</span></p>
+				<p id="path"><span id="path-span">Career Path 4:</span> JavaScript Backend Developer</p>
+				<p id="quote"><em>"Growth and comfort do not coexist"</em> -Ginny <span class="quote">Rometty</span></p>
+			</div>
+		</div>
+	</a>
+
+	<nav id="main-nav">
+		<ul>
+			<li class="top"><a href='#'>Project-1</a></li>
+			<li class="bottom"><a href='#'>Project-2</a></li>
+			<li class="top"><a href='#'>Project-3</a></li>
+			<li class="bottom"><a href='#'>Project-4</a></li>
+			<li class="top"><a href='#'>Project-5</a></li>
+			<li class="bottom"><a href='#'>Project-6</a></li>
+			<li class="top"><a href='#'>Project-7</a></li>
+		</ul>
+	</nav>
+
+	<hr>
+
+	<div id="profile-card">
+		<div id="name-pics">
+			<div id="name-div">
+				<p>
+					Alexandrix<br>
+					<strong>Ikechukwu</strong>
+				</p>
+			</div>
+
+			<div id="profile-pics">
+				<div id="main-pic">	
+					<img src="images/profile/main.jpg">
+				</div>
+				<div id="side-pics">
+					<img src="images/profile/side-1.jpg" id="side-pic1">
+					<img src="images/profile/side-2.jpg" id="side-pic2">
+				</div>
+			</div>
+		</div>
+
+		<div id="content">
+			<hr>
+
+			<h3>About the Developer</h3>
+			<p>
+				A budding developer from Africa, Alexandrix obsesses with learning and understanding technologies deeply. He believes it opens the door to what many will call magic.
+				Math is scary but it gives Alex'x a thrill. They have a relationship some might call abusive.
+				He will give almost anything to be around a computer and believes education is key to the intellectual and economic advancement of <em>any</em> of any society.
+				And <em>yes</em>, I am this leggy!
+			</p>
+			<p><a href="http://profiles.moderndeveloper.com/user/?u=alexandrix-ikechukwu">Back to Full Profile</a></p>
+		</div>
+	</div>
+
+	<div id="scheduler">
+		<form action="#" method="POST">
+			<fieldset>
+				<legend>Scheduling Form</legend>
+
+				<label for="date">Date</label>
+				<input type="date" name="" id="date" class="field" value="2016-08-20">
+
+				<label for="time">Time</label>
+				<input type="time" name="" id="time" class="field" value="18:19:20">
+
+				<select name="select" id="timezone">
+					<option>Anywhere on Earth (AoE) UTC-12</option>
+					<option>X-ray Time Zone (X) UTC-11</option>
+					<option>Whiskey Time Zone (W) UTC-10</option>
+					<option>Alaska Standard Time (AKST) UTC-9</option>
+					<option>Pacific Standard Time (PST) UTC-8</option>
+					<option>Tango Time Zone (T) UTC-7</option>
+					<option>Sierra Time Zone (S) UTC-6</option>
+					<option>Central Daylight Time (CDT) UTC-5</option>
+					<option>Venezuela Standard Time(VET) UTC-4</option>
+					<option>Papa Time Zone(P) UTC-3</option>
+					<option>Brasilia Summer Time(BRST) UTC-2</option>
+					<option>November Time Zone (N) UTC-1</option>
+					<option selected>Select Timezone</option>
+					<option>Greenwich Mean Time (GMT) UTC+0</option>
+					<option>Central European Time (CET) UTC+1</option>
+					<option>Bravo Time Zone (B) UTC+2</option>
+					<option>Eastern African Time (EAT) UTC+3</option>
+					<option>Delta Time Zone (D) UTC+4</option>
+					<option>Oral Time (ORAT) UTC+5</option>
+					<option>Foxtrot Time Zone (F) UTC+6</option>
+					<option>Christmas Island Time (CXT) UTC+7</option>
+					<option>Hotel Time Zone (H) UTC+8</option>
+					<option>Japan Standard (JST) UTC+9</option>
+					<option>Australia Eastern Standard (AEST) UTC+10</option>
+					<option>Norfolk Time (NFT) UTC+11</option>
+					<option>Magadan Summer Time (MAGST) UTC+12</option>
+					<option>Line Islands Time (LINT) UTC+14</option>
+				</select>				
+
+				<label for="message">Message</label>
+				<textarea rows="10" cols="20" placeholder="Type message..." id="message"></textarea>
+
+				<label for="email">Email</label>
+				<input type="email" name="" value="sule@example.com" id="email" class="field">
+
+			</fieldset>
+
+			<input type="submit" name="" value="Submit">
+
+		</form>
+	</div>
+</body>
+</html>

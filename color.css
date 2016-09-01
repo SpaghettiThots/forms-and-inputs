@@ -1,0 +1,319 @@
+body{
+	background: #F4F7F8;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+	
+#header{
+	width: 1400px;
+	height: 400px;
+	background: url('../images/background.png');
+	padding-top: 0;
+	position: relative;
+}
+
+#details{
+	position: absolute;
+	top:30px;
+	left: 400px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+/* Header fonts */
+#name{
+	font-family: 'Roboto Slab', serif;
+	font-size: 3em;
+	color: rgb(255, 255, 255);
+	text-shadow: .1em .1em 0.15em rgb(150, 150, 150);
+}
+
+#name span{
+	font-weight: bold;
+}
+
+#path-span{
+	font-size: 1.5em;
+}
+
+#path{
+	font-family: Ubuntu, sans-serif;
+	font-size: 2em;
+	color: rgb(100, 100, 100);
+}
+
+#quote{
+	font-family: 'Meie Script', cursive;
+	font-size: 2em;
+}
+
+.quote{
+	color: rgb(120, 120, 120);
+}
+
+/* Navigation Menu */
+#main-nav{
+	width: 600px;
+	margin: 0 auto;
+}
+
+li{
+	display: inline-block;
+	font-family: 'Roboto Slab', 'Ubuntu', sans-serif;
+	font-size: 14px;
+
+	padding: 5px;
+	padding-left: 7px;
+	padding-right: 8px;
+	
+	border: 1px solid rgb(190, 190, 190);
+	border-radius: 2px;
+
+	color: rgb(58, 58, 58);
+}
+
+.top:hover{
+	color: rgb(192, 0, 0);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-top: 2px solid rgb(200, 255, 50);
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.bottom:hover{
+	color: rgb(192, 0, 0);
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid rgb(200, 255, 50);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.top:active{
+	color: rgb(192, 0, 0);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-top: 2px solid rgb(200, 255, 50);
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.bottom:active{
+	color: rgb(192, 0, 0);
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid rgb(200, 255, 50);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+li a{
+	color: rgb(192, 0, 0);
+	text-decoration: none;
+}
+
+li:hover{
+	color: rgb(0, 200, 200);
+}
+
+li:active{
+	color: rgb(200, 200, 0);
+}
+
+/*Profile Card*/
+#profile-card{
+	box-sizing: border-box;
+
+	width: 300px;
+	font-family: 'Ubuntu', sans-serif;
+
+	border: 5px solid rgba(0, 206, 209, .4);
+	border-radius: 3px;
+
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+
+	position: absolute;
+	right: 10px;
+}
+
+#name-div{
+	font-size: 1.5em;
+}
+
+#profile-pics{
+	position: relative;
+}
+
+#side-pics{
+	position: absolute;
+	left: 117px;
+	top: 3px;
+}
+
+#content{
+	font-size: 16px;
+}
+
+/*Color*/
+#color{
+	width: 250px;
+	height: 380px;
+	border: 1px solid rgb(192, 192, 192);
+	border-radius: 4px;
+	margin-top: 30px;
+	padding-left: 25px;
+	position: absolute;
+	left: 380px;
+	background-color: rgb(255, 255, 255);
+	font-family: 'Ubuntu', sans-serif;
+}
+
+legend{
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	font-weight: 500;
+
+	position: absolute;
+	top: 20px;
+	left: 87px;
+
+	text-shadow: 2px 2px 2px skyblue;
+}
+
+legend #a{
+	color: rgb(255, 0, 0);
+}
+
+legend #b{
+	color: rgb(0, 255, 0);
+}
+
+legend #c{
+	color: rgb(0, 0, 255);
+}
+
+label[for="red"]{
+	position: absolute;
+	left: 77px;
+}
+
+label[for="green"]{
+	position: absolute;
+	left: 72px;
+}
+
+label[for="blue"]{
+	position: absolute;
+	left: 75px;
+}
+
+label[for="alpha"]{
+	color: rgb(192, 192, 192);
+	position: absolute;
+	left: 72px;
+}
+
+label[for="output"]{
+	color: rgb(192, 192, 192);
+	position: absolute;
+	left: 67px;
+}
+
+fieldset{
+	margin: 0;
+	border: none;
+	padding: 0
+}
+
+#colors{
+	position: absolute;
+	top: 50px;
+	left: 47px;
+}
+
+.RGB{
+	font-size: 14px;
+}
+
+input{
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 2px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+
+#redbox label{
+	color: #ff0000;
+	
+}
+
+#greenbox label{
+	color: #00ff00;
+}
+
+#bluebox label{
+	color: #0000ff;
+}
+
+label[for="red"]:hover{
+	color: rgb(255, 0, 0);
+}
+
+label[for="green"]:hover{
+	color: rgb(100, 100, 100);
+}
+
+label[for="blue"]:hover{
+	color: rgb(100, 100, 100);
+}
+
+label[for="output"]:hover{
+	color: rgb(100, 100, 100);
+}
+
+#red{
+	border: 1px solid #ff0000;
+}
+
+#green{
+	border: 1px solid #00ff00;
+}
+
+#blue{
+	border: 1px solid #0000ff;
+}
+
+#alpha{
+	border: 1px solid rgb(192, 192, 192);
+}
+
+label[for="output"] #d{
+	color: rgb(255, 0, 0);
+}
+
+label[for="output"] #e{
+	color: rgb(0, 255, 0);
+}
+
+label[for="output"] #f{
+	color: rgb(0, 0, 255);
+}
+
+.footer{
+	font-size: 1.2em;
+	clear: left;
+	width: 40%;
+	margin: 0 auto;
+	border-top: 1px solid grey;
+	border-radius: 
+}
