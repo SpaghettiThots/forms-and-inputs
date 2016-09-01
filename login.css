@@ -168,6 +168,11 @@ hr{
 	font-size: 16px;
 }
 
+a{
+	text-decoration: none;
+	color: DodgerBlue;
+}
+
 /*Login*/
 #login{
 	width: 350px;

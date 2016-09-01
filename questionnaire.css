@@ -251,6 +251,11 @@ input[type="text"]{
 	opacity: 0.5;
 }
 
+a{
+	text-decoration: none;
+	color: DodgerBlue;
+}
+
 .footer{
 	font-size: 1.2em;
 	clear: left;

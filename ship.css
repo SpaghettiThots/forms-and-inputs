@@ -131,6 +131,11 @@ hr{
 	opacity: .4;
 }
 
+a{
+	text-decoration: none;
+	color: DodgerBlue;
+}
+
 /*Profile Card*/
 #profile-card{
 	box-sizing: border-box;
