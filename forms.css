@@ -1,13 +1,13 @@
 /*Forms*/
-#search{
+#signup{
 	box-sizing: border-box;
 	width: 320px;
-	height: 160px;
-	border-radius: 6px;
 	margin-top: 30px;
+	padding-bottom: 20px;
 	position: absolute;
 	left: 450px;
 	border: 2px solid rgb(192, 192, 192);
+	border-radius: 6px;
 	font-family:'Ubuntu', sans-serif;
 	font-size: 14px;
 	line-height: 1em;
@@ -17,7 +17,7 @@ legend{
 	font-weight: 600;
 	font-size: 16px;
 	font-family: 'Roboto Slab', serif;
-	margin-left: 110px;
+	margin-left: 120px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	opacity: .5;
@@ -52,7 +52,7 @@ label{
 input{
 	width: 170px;
 	height: 20px;
-	border: 1px solid rgb(192, 192, 192);
+	border: 1px solid rgba(192, 192, 192, 0.6);
 	border-radius: 3px;
 	padding-left: 4px;
 	position: relative;
@@ -81,6 +81,11 @@ input[type="submit"]{
 	box-shadow: inset 3px 3px 3px rgb(70, 130, 180);
 }
 
+a{
+	text-decoration: none;
+	color: DodgerBlue;
+}
+
 /*Search*/
 #menu{
 	border: 1px solid rgb(192, 192, 192);
@@ -93,11 +98,14 @@ option{
 	font-size: 1.2em;
 	font-weight: 300;
 }
-.footer{
-	font-size: 1.2em;
-	clear: left;
-	width: 40%;
-	margin: 0 auto;
-	border-top: 1px solid grey;
-	border-radius: 
+
+#home-link{
+	position: fixed;
+	top: 400px;
+	right: 40px;
+}
+
+#home-link li{
+	background-color: yellow;
+
 }
